@@ -1,0 +1,52 @@
+@font-face {
+    font-family: morpheus;
+    src: url("fonts/morpheus.ttf")
+}
+
+.total-shitlords-logo {
+    margin-bottom: 4em;
+}
+
+.total-shitlords-logo img {
+    max-width: 50%;
+    margin: 0 auto;
+}
+
+.player-card {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+}
+
+.player-card--details {
+    flex-grow: 1;
+    font-family: morpheus;
+}
+
+.player-card--name {
+    font-size: 24px;
+}
+
+.player-card--spec {
+    font-size: 16px;
+}
+
+.monk-text-color {
+    color: #00FF96;
+}
+
+.shaman-text-color {
+    color: #0070DE;
+}
+
+.druid-text-color {
+    color: #FF7D0A;
+}
+
+.hunter-text-color {
+    color: #ABD473;
+}
+
+.mage-text-color {
+    color: #69CCF0;
+}
