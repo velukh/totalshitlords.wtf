@@ -73,10 +73,14 @@
 }
 
 .dungeon-card {
-    margin-right: 3em;
+    
     border: 1px solid gray;
     padding: 1em;
     border-radius: 8px;
+}
+
+.dungeon-card:not(:last-child) {
+    margin-right: 3em;
 }
 
 .dungeon-card--header {
@@ -105,6 +109,10 @@
     margin-right: 0.75em;
 }
 
+.dungeon-card--affix img {
+    border-radius: 4px;
+}
+
 .dungeon-card--header-title {
     font-size: 18px;
     font-family: friz-quadrata;
@@ -121,4 +129,12 @@
 
 .player-card--links a:not(:last-child) {
     margin-right: 1em;
+}
+
+.s1-team-mount-image img {
+    border-radius: 8px;
+}
+
+footer {
+    margin-top: 5em;
 }
