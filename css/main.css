@@ -107,8 +107,18 @@
 
 .dungeon-card--header-title {
     font-size: 18px;
+    font-family: friz-quadrata;
 }
 
 .dungeon-card--header figure {
+    margin-right: 1em;
+}
+
+.player-card--links {
+    display: flex;
+    justify-content: center;
+}
+
+.player-card--links a:not(:last-child) {
     margin-right: 1em;
 }
