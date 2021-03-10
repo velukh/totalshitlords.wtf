@@ -1,6 +1,22 @@
 @font-face {
     font-family: morpheus;
-    src: url("./fonts/morpheus.TTF")
+    src: url("./fonts/morpheus.TTF");
+}
+
+@font-face {
+    font-family: friz-quadrata;
+    src: url("./fonts/friz-quadrata.woff");
+}
+
+@font-face {
+    font-family: digital;
+    src: url("./fonts/digital-clock.TTF");
+}
+
+.team-details {
+    font-size: 32px;
+    font-family: friz-quadrata;
+    margin-bottom: 2em;
 }
 
 .total-shitlords-logo {
@@ -49,4 +65,50 @@
 
 .mage-text-color {
     color: #69CCF0;
+}
+
+.ksm-runs-title {
+    font-size: 28px;
+    font-family: morpheus;
+}
+
+.dungeon-card {
+    margin-right: 3em;
+    border: 1px solid gray;
+    padding: 1em;
+    border-radius: 8px;
+}
+
+.dungeon-card--header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+
+.dungeon-card--details, .dungeon-card--affixes {
+    display: flex;
+    font-family: friz-quadrata;
+}
+
+.dungeon-card--time {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 32px;
+    font-family: digital;
+}
+
+.dungeon-card--affix {
+    width: 45px;
+    height: 45px;
+    margin-right: 0.75em;
+}
+
+.dungeon-card--header-title {
+    font-size: 18px;
+}
+
+.dungeon-card--header figure {
+    margin-right: 1em;
 }
