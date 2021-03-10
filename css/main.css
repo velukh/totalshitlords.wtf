@@ -114,7 +114,6 @@
 
 .dungeon-card {
     border: 1px solid gray;
-    padding: 1em;
     border-radius: 8px;
 }
 
@@ -126,6 +125,7 @@
     display: flex;
     align-items: center;
     margin-bottom: 1em;
+    padding: 1em;
 }
 
 .dungeon-card--details, .dungeon-card--affixes {
@@ -133,19 +133,53 @@
     font-family: friz-quadrata;
 }
 
-.dungeon-card--time {
-    flex-grow: 1;
-    display: flex;
+.dungeon-card--details {
+    flex-direction: column;
+}
+
+.dungeon-card--affixes {
     align-items: center;
     justify-content: center;
+    margin-bottom: 2em;
+}
+
+.dungeon-card--timer-details {
+    width: 100%;
+    border-top: 1px solid gray;
+    overflow: hidden;
+    padding-top: 0.75em;
+    padding-bottom: 0.75em;
+}
+
+.dungeon-card--timer-details .column:first-child {
+    border-right: 1px solid gray;
+    
+}
+
+@media only screen and (max-width: 768px) {
+    .dungeon-card--timer-details .column:first-child {
+        border-bottom: 1px solid gray;
+    }
+}
+
+.dungeon-card--time, .dungeon-card--under-time {
     font-size: 32px;
+}
+
+.dungeon-card--time-title, .dungeon-card--under-time-title {
+    font-size: 14px;
+}
+
+.digital-clock {
     font-family: digital;
-    margin-right: 0.5em;
 }
 
 .dungeon-card--affix {
     width: 45px;
     height: 45px;
+}
+
+.dungeon-card--affix:not(:last-child) {
     margin-right: 0.75em;
 }
 
