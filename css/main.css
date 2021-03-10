@@ -47,20 +47,49 @@
     font-size: 16px;
 }
 
+.player-card--details-inner {
+    padding-top: 0.5em;
+    padding-bottom: 1em;
+    border-radius: 6px;
+    color: white;
+    /* text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
+    font-weight: 600;
+}
+
+.monk-color {
+    background-color: #00FF96;
+}
+
 .monk-text-color {
     color: #00FF96;
+}
+
+.shaman-color {
+    background-color: #0070DE;
 }
 
 .shaman-text-color {
     color: #0070DE;
 }
 
+.druid-color {
+    background-color: #FF7D0A;
+}
+
 .druid-text-color {
     color: #FF7D0A;
 }
 
+.hunter-color {
+    background-color: #ABD473;
+}
+
 .hunter-text-color {
     color: #ABD473;
+}
+
+.mage-color {
+    background-color: #69CCF0;
 }
 
 .mage-text-color {
