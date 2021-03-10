@@ -49,12 +49,20 @@
 }
 
 .player-card--details-inner {
+    position: relative;
     padding-top: 0.5em;
     padding-bottom: 1em;
     border-radius: 6px;
     color: white;
     /* text-shadow: 2px 4px 3px rgba(0,0,0,0.3); */
     font-weight: 600;
+    text-align: center;
+}
+
+.player-card--covenant {
+    position: absolute;
+    top: 5px;
+    left: 2px;
 }
 
 .monk-color {
@@ -100,10 +108,11 @@
 .ksm-runs-title {
     font-size: 28px;
     font-family: morpheus;
+    margin-top: 3em;
+    margin-bottom: 1em;
 }
 
 .dungeon-card {
-    
     border: 1px solid gray;
     padding: 1em;
     border-radius: 8px;
@@ -131,6 +140,7 @@
     justify-content: center;
     font-size: 32px;
     font-family: digital;
+    margin-right: 0.5em;
 }
 
 .dungeon-card--affix {
@@ -159,6 +169,10 @@
 
 .player-card--links a:not(:last-child) {
     margin-right: 1em;
+}
+
+.s1-team-mount-image {
+    margin-top: 3em;
 }
 
 .s1-team-mount-image img {
