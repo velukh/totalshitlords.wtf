@@ -138,3 +138,18 @@
 footer {
     margin-top: 5em;
 }
+
+.copyright-text {
+    font-size: 12px;
+}
+
+.troll-text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 10px;
+}
+
+.troll-text img {
+    margin-left: 0.5em;
+}
